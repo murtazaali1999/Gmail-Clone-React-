@@ -1,0 +1,16 @@
+.whole-type {
+  border-radius: 8px;
+}
+
+.whole-type:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+.email-type {
+  display: flex;
+  flex-direction: row !important;
+
+  padding: 15px;
+
+  width: 150px !important;
+}

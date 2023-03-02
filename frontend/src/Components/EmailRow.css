@@ -1,0 +1,45 @@
+.email-row {
+  display: flex;
+  flex-direction: row !important;
+  margin-top: 10px;
+}
+
+.email-row :nth-child(1) {
+  flex-grow: 0.2;
+}
+
+.email-row :nth-child(2) {
+  flex-grow: 0.8;
+}
+
+.left-email {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.right-email {
+  display: flex !important;
+  flex-direction: row !important;
+
+  align-items: center;
+  justify-content: space-around !important;
+
+  font-size: 18px;
+}
+
+.subject-email {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.right-email > div {
+  width: 50px !important;
+}
+
+.right-email > div > h5 {
+  width: 50% !important;
+}
+
+.email-row :hover {
+  border-bottom: 5px solid gray;
+}

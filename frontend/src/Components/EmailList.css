@@ -1,0 +1,23 @@
+.email-list {
+  flex-grow: 1 !important;
+  flex-direction: column;
+}
+
+.email-settings {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: space-between;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.settings-left {
+  display: flex;
+  flex-direction: row !important;
+}
+
+.settings-right {
+  display: flex;
+  flex-direction: row !important;
+}

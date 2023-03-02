@@ -1,0 +1,68 @@
+.sidebar {
+  flex-grow: 0.02;
+  flex-direction: column;
+  width: 190px;
+}
+
+.sidebar-wrapper {
+  width: 190px;
+}
+
+.compose-btn {
+  display: flex;
+  flex-direction: row !important;
+
+  align-items: center;
+  justify-content: center;
+
+  border: black solid;
+  box-shadow: 0px 1px 1px 1px;
+  border-radius: 20px !important;
+  color: rgb(0, 0, 0);
+
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+
+  width: 120px;
+
+  font-size: 15px !important;
+}
+
+.compose {
+  margin-left: 5px !important;
+}
+
+.more-down {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center;
+
+  justify-content: flex-start !important;
+}
+
+.more-down > button {
+  width: 60%;
+
+  flex-direction: row !important;
+
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.more {
+  font-size: 15px;
+}
+
+.sidebar-opt {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.sidebar-contacts {
+  flex-direction: row !important;
+
+  margin-top: 15px;
+  margin-left: 10px;
+}

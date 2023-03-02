@@ -1,0 +1,68 @@
+.header {
+  background-color: rgb(240, 240, 240);
+  padding: 10px;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+}
+
+.header-1 {
+  display: flex;
+  flex-direction: row;
+  flex: 0.2;
+
+  align-items: center;
+}
+
+.header-2 {
+  display: flex;
+  flex: 0.7;
+
+  align-items: center;
+  justify-content: left !important;
+}
+
+.header-3 {
+  display: flex;
+  flex: 0.1;
+
+  align-items: center;
+  justify-content: end;
+}
+
+.header-1 img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+
+.header-2 input {
+  height: 40px;
+  width: 80%;
+
+  padding-left: 30px;
+  outline: none;
+  z-index: 0;
+}
+
+.header-2 > .search {
+  margin-right: -30px;
+  z-index: 1;
+
+  color: gray;
+}
+
+.header-2 > .arrow-down {
+  margin-left: -40px;
+
+  z-index: 1;
+  color: gray;
+}
+
+.gy {
+  color: gray;
+}
